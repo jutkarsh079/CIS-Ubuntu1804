@@ -1,0 +1,7 @@
+- name: Harden Server
+  hosts: ubuntu
+  connection: local
+  gather_facts: true
+  #become: no
+  roles:
+    - Ubuntu1804-CIS

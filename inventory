@@ -1,0 +1,9 @@
+[ubuntu]
+104.154.241.203 
+
+[ubuntu:vars]
+ansible_become=yes
+ansible_become_method=sudo
+ansible_become_password=utkarsh
+ansible_user=utkarsh
+ansible_password=utkarsh
